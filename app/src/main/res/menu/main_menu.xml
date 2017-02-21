@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mail"
+        android:title="mail"
+        android:icon="@drawable/ic_mail_outline_black_24dp"
+        app:showAsAction="always" />
+    <item android:id="@+id/more"
+        android:title="more"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="never" />
+</menu>

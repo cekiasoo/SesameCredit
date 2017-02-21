@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--刻度圆弧半径-->
+    <attr name="scaleArcRadius" format="dimension" />
+    <!--刻度圆弧的宽度-->
+    <attr name="scaleArcWidth" format="dimension" />
+    <!--进度圆弧的半径-->
+    <attr name="progressArcRadius" format="dimension" />
+    <!--进度圆弧的宽度-->
+    <attr name="progressArcWidth" format="dimension" />
+    <!--BETA的字体大小-->
+    <attr name="betaTextSize" format="dimension" />
+    <!--信用级别的字体大小-->
+    <attr name="creditLevelTextSize" format="dimension" />
+    <!--信用分数的字体大小-->
+    <attr name="creditScoreTextSize" format="dimension" />
+    <!--评估时间的字体大小-->
+    <attr name="evaluationTimeTextSize" format="dimension" />
+    <!--字上下行之间的间隔-->
+    <attr name="textSpacing" format="dimension" />
+    <!--箭头与圆弧的间隔-->
+    <attr name="arrowSpacing" format="dimension" />
+    <declare-styleable name="DialView">
+        <attr name="scaleArcRadius" />
+        <attr name="scaleArcWidth" />
+        <attr name="progressArcRadius" />
+        <attr name="progressArcWidth" />
+        <attr name="betaTextSize" />
+        <attr name="creditLevelTextSize" />
+        <attr name="creditScoreTextSize" />
+        <attr name="evaluationTimeTextSize" />
+        <attr name="textSpacing" />
+        <attr name="arrowSpacing" />
+    </declare-styleable>
+</resources>
